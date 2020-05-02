@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+	<head> 
+		<title>Lindsey Fares - Coding Portfolio</title> 
+        <meta charset="utf-8"> 
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+    <body> 
+        <header>
+            <h1 id="hidden">Lindsey Fares - Coding Portfolio</h1>
+        </header>
+        <div id="navBG">
+            <div>
+                <a href="index.html"><img src="images/placeholder.png" alt="logo" height="80" width="80" id="return"></a>
+            </div>
+            <div id="socialMedia">
+                <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="facebook" height="60" width="60" onmouseover="this.src='images/facebook_select.png'" onmouseout="this.src='images/facebook.png'"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="instagram" height="60" width="60" onmouseover="this.src='images/instagram_select.png'" onmouseout="this.src='images/instagram.png'"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter" height="60" width="60" onmouseover="this.src='images/twitter_select.png'" onmouseout="this.src='images/twitter.png'"></a>
+                <a href="https://www.gmail.com" target="_blank"><img src="images/email.png" alt="email" height="60" width="60" onmouseover="this.src='images/email_select.png'" onmouseout="this.src='images/email.png'"></a>
+            </div>
+            <nav>
+                <ul>
+                    <div class="navOne"><li><a href="about.html" id="about">About</a></li></div>
+                    <div class="navTwo">
+                    <div class="dropdown">
+                        <li><p>Portfilos<span class="caret"></span></p></li>
+                        <div class="dropdown-content">
+                            <a href="coding.html" id="highlightOne">Coding</a>
+                            <a href="digital.html" id="highlightTwo">Digital Media</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="navThree"><li><a href="contact.html" id="contact">Contact</a></li></div>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <h2>Coding Portfolio</h2>
+            <div id="digitalMedia">
+                <div class="container">
+                    <img src=images/coding_1.jpg alt="codingOne" height="350" width="450" class="image">
+                    <div class="overlay">
+                        <div class="text"><b><u>Web Development Assignment:</u></b><br>Yorkie Breeder Website</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src=images/coding_2.jpg alt="codingTwo" height="350" width="450" class="image">
+                    <div class="overlay">
+                        <div class="text"><b><u>Web Development Project:</u></b><br>A&amp;M Website</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src=images/coding_3.jpg alt="codingThree" height="350" width="450" class="image">
+                    <div class="overlay">
+                        <div class="text"><b><u>Web Development Project:</u></b><br>Personal Website</div>
+                    </div>
+                </div>
+            </div>     
+        </main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script src="script.js"></script>
+    </body>
+    <footer>
+
+    </footer>
+</html>

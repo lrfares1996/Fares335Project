@@ -1,0 +1,299 @@
+/* Page Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+head, body, main, footer, nav
+{
+    font-family: Abel, sans-serif;
+}
+/* Page Fonts End */
+
+/* "Back to Top" Button FROM W3 SCHOOLS */
+#myBtn 
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover 
+{
+    background-color: #DB9D33;
+}
+/* "Back to Top" Button End */
+
+/* Header CSS */
+#hidden
+{
+    display: none;
+}
+/* Header CSS */
+
+/* Navigation CSS */
+#navBG
+{
+    background-color: black;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+    margin-left: -100px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+#return
+{
+    margin-left: 150px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+#socialMedia
+{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-top: -90px;
+    float: right;
+    margin-right: 70px;
+}
+
+nav p
+{
+    margin-top: -75px;
+    margin-left: -10px;
+    color: white;
+}
+
+nav li 
+{
+    font-size: 1.5em;
+    margin-top: -75px;
+    color: white;
+}
+
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 300px;
+    justify-content: center;
+}
+            
+.navOne
+{
+    flex: 1;
+}
+
+.navTwo
+{
+    flex: 1;
+}
+
+.navThree
+{
+    flex: 1;
+    margin-right: 700px;
+}
+/* Navigation CSS End */
+
+/* Drop Down Menu FROM W3 SCHOOLS*/
+.dropdown 
+{
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 16px 12px;
+    margin-top: -15px;
+    margin-left: -40px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a 
+{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+/* Drop Down Menu End */
+
+/* Home Page CSS */
+#homeSplit
+{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeSplit img
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeText
+{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#homeText h2
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* Home Page End */
+
+/* About Page CSS */
+#aboutImg
+{
+    float: right;
+    margin-right: 200px;
+}
+
+#aboutImg img
+{
+    border: dashed 3px;
+    border-color: #DB9D33;
+}
+
+#aboutText
+{
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+}
+
+#aboutText p
+{
+    word-wrap: normal;
+    font-size: 1.1em;
+}
+
+#aboutText h2
+{
+    text-decoration: underline;
+    font-weight: 0;
+}
+
+#aboutText li
+{
+    list-style-type: none;
+    margin-left: -40px;
+}
+/* About Page CSS End */
+
+/* Portfolio CSS */
+#digitalMedia
+{
+    display: flex;
+    padding: 20px;
+}
+
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* Portfolio CSS End */
+
+/* Portfolio Layout FROM W3 SCHOOLS */
+.container 
+{
+    position: relative;
+    width: 100%;
+}
+
+.image 
+{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 93.5%;
+    margin-left: 14px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #DB9D33;
+}
+
+.container:hover .overlay 
+{
+    opacity: .75;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* Portfolio Layout End */
+
+/* Contact Page CSS */
+#container
+{
+    margin: auto;
+    width: 50%;
+    border: dotted 8px #8B6420;
+    background-color: #E8C17D;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Contact Page CSSEnd */
